@@ -33,11 +33,17 @@
 
 ### lec05. 조건문 다루기
  - if문은 자바와 문법이 동일
- - 단, 값으로 취급됨
+ - 단, expression(값처럼 사용)이다
  - when: 자바의 switch
 
-## lec06. 반복문 다루기
+### lec06. 반복문 다루기
  - for-each 문에서 : 대신 in 사용
  - for 문에서 등차수열과 in 사용
  - while문은 자바와 동일
+
+### lec07. 예외 다루기
+ - try-catch-finally 구문은 동일하다
+ - 단, expression이다.
+ - 모든 예외는 unchecked이다
+ - try-with-resources 구문이 없고, use를 활용
 
