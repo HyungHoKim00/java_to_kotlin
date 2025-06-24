@@ -1,4 +1,4 @@
-import util.Person
+import util.JavaPerson
 
 fun main() {
     // Long number1 = 10;
@@ -27,5 +27,5 @@ fun main() {
     var number5 : Long? = null
 
     // 객체의 인스턴스화: new 사용 x
-    var person = Person("harry");
+    var person = JavaPerson("harry", 26);
 }

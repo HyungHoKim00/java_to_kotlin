@@ -1,4 +1,4 @@
-import util.Person
+import util.JavaPerson
 
 fun main() {
     // 타입 추론
@@ -30,7 +30,7 @@ fun main() {
     // 무조건 예외를 반환하는 함수, 무한루프 등
 
     // String 가공
-    val person = Person("김형호")
+    val person = JavaPerson("김형호", 26)
     val name = person.name
     println("제 이름은 ${person.name} 입니다.")
     println("제 이름은 $name 입니다.")
@@ -49,7 +49,7 @@ fun main() {
 
 fun printNameIfPerson(obj: Any) {
     // is: 자바의 instanceof
-    if (obj is Person) {
+    if (obj is JavaPerson) {
         // Person person = (Person) obj
         // val person = obj as person
         // 스마트 캐스트: if에서 타입 추론을 완료했을 때 캐스팅 생략 가능
@@ -59,12 +59,12 @@ fun printNameIfPerson(obj: Any) {
 
 fun printNameIfPerson2(obj: Any?) {
     // !instanceof 가능
-    if(obj !is Person) {
+    if(obj !is JavaPerson) {
         return
     }
     // as: 캐스팅 대상 클래스가 일치하지 않을 경우, 에러 발생
     // as?: 캐스팅 대상이 null인 경우, 그대로 null로 전달됨
     // as?: 캐스팅 대상 클래스가 일치하지 않을 경우, null 발생
-    val person = obj as? Person
+    val person = obj as? JavaPerson
     println(person?.name)
 }

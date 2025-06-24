@@ -1,4 +1,4 @@
-import util.Person
+import util.JavaPerson
 
 fun main() {
     val str: String? = "ABC"
@@ -14,7 +14,7 @@ fun main() {
     // null에 대한 어노테이션 정보에 따라 처리함.
     // @Nullable, @Notnull 어노테이션을 통해 파악
     // 어노테이션이 없는 경우, nullable 유무를 파악할 수 없기 때문에 runtime에러 발생 가능(플랫폼 타입)
-    val person = Person("harry");
+    val person = JavaPerson("harry", 26);
     startsWithA(person.name)
     // startsWithA(person.nullableName)
 }
