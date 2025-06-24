@@ -80,3 +80,8 @@
  - 프로퍼티의 custom setter에 별도의 접근 제어자를 붙일 수 있다.
  - 자바-코틀린 변환에서 internal과 protected 사용에 주의해야 한다.
 
+### lec12. object 키워드 다루기
+ - companion object: 자바의 스태틱 변수와 함수 생성
+ - companion object도 하나의 객체로 간주되기 때문에, 이름을 붙이고 상속받을 수 있음
+ - 싱글톤 클래스를 만들 때 object 키워드를 사용한다
+ - 익명 클래스를 만들 때 object : 타입을 사용한다
