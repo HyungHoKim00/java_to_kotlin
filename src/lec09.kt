@@ -48,6 +48,6 @@ class Person(
     }
 
     // 함수 대신 프로퍼티처럼 만들 수 있음
-    val isAdult: Boolean
-        get() = age >= 20
+//    val isAdult: Boolean
+//        get() = age >= 20
 }
