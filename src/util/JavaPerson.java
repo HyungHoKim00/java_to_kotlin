@@ -11,6 +11,10 @@ public class JavaPerson {
         this.age = age;
     }
 
+    public int nextYearAge() {
+        return this.age + 1;
+    }
+
     public String getName() {
         return name;
     }
