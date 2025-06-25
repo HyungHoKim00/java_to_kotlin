@@ -128,3 +128,13 @@
 
 ### lec18: 컬렉션을 함수형으로 다루기
  - 많은 기능이 있으므로, 코드 참조
+
+### lec19: 이모저모
+ - typealias: 타입에 대한 별칭 설정
+ - as import: import 당시 별칭 설정
+ - 구조분해: 객체 내부의 변수를 한 번에 선언할 수 있음
+   - componentN 함수가 존재해야 함, data class에는 기본적으로 존재
+ - for, while문과 다르게 forEach에서는 break, continue 사용 불가
+ - takeIf: 조건이 맞다면 값을 가져오고, 아니면 null
+ - takeUnless: takeIf의 반대
+
