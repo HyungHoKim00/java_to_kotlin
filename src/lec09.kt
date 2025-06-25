@@ -1,5 +1,4 @@
 import util.JavaPerson
-import java.util.*
 
 fun main() {
     val person = Person("김형호", 25)

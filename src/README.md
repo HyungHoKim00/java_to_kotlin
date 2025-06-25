@@ -92,3 +92,7 @@
  - 바깥 클래스를 참조하고 싶다면, inner 키워드를 붙여야 한다
    - 바깥 클래스를 참조할 때 this@바깥클래스를 사용해야 한다.
 
+### lec14: 다양한 클래스 다루기
+ - data class: equals, hashcode, toString 자동 생성
+ - enum class: 자바의 enum과 동일
+ - sealed class: 하위 클래스가 런타임에 생성되는 것을 제한함.
