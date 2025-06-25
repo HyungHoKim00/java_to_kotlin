@@ -138,3 +138,7 @@
  - takeIf: 조건이 맞다면 값을 가져오고, 아니면 null
  - takeUnless: takeIf의 반대
 
+### lec20: scope function
+ - scope function: 일시적인 영역을 만들어 코드를 더 간결하게 하거나, 메서드 체이닝에 활용된다
+   - let, run, also, apply, with
+ - 사람에 따라 가독성을 다르게 느끼기 때문에, 컨벤션을 잘 따라야 한다.
